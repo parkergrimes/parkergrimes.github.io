@@ -1,0 +1,15 @@
+---
+layout: foundation
+title: Parker Grimes
+---
+<div class="row">
+    <div class="medium-3 columns">{% include left_sidebar.html %}</div>
+    <div class="medium-9 columns">
+        {% for post in site.posts %}
+            <h2>{{ post.title }}</h2>
+            <div class="post">
+                {{ post.excerpt }} <a href="{{ post.url }}" class="button radius tiny">Read More</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
