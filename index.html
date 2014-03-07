@@ -6,9 +6,9 @@ title: Parker Grimes
     <div class="medium-3 columns">{% include left_sidebar.html %}</div>
     <div class="medium-9 columns">
         {% for post in site.posts %}
-            <h2>{{ post.title }}</h2>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="post">
-                {{ post.excerpt }} <a href="{{ post.url }}" class="button radius tiny">Read More</a>
+                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url }}" class="">Read More</a></p>
             </div>
         {% endfor %}
     </div>
