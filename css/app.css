@@ -5787,3 +5787,11 @@ th.hide-for-touch {
   margin-top: 30px; }
 #home .post {
   margin-bottom: 20px; }
+
+#home-image {
+  margin-bottom: 20px; }
+
+@media screen and (min-width: 1024px) {
+  .entry-title {
+    margin: 45px 0;
+    font-size: 4rem; } }
