@@ -4,3 +4,4 @@ pygments: true
 permalink: /blog/:year/:month/:day/:title
 description: My blog about stuff.
 url: http://grimes.co
+exclude: [node_modules, Gruntfile.js, package.json]

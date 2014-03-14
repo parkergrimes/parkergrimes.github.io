@@ -9,13 +9,13 @@ This is a tutorial on how to create an app using [Fluid][fluidapp] that is pinne
 
 ## What is Fluid?
 
-![Fluid App](/assets/img/fluid_logo_icon.png)
+![Fluid App](/img/fluid_logo_icon.png)
 
 If you already know what Fluid is, jump to the next section. For those that haven't heard of Fluid before, stay right here. Fluid is a nifty OS X app that lets you turn any website into a dedicated app on your Mac. For example, say you want to turn Gmail into an app that lives in your `Applications` folder, `.app` extension and all, so that you can launch it independently of everything else, use the task switcher to jump to it, and see it in your dock. This makes sense. There are many web applications that are much like regular desktop apps, Gmail, Google Calendar, and GitHub are good examples. As a native desktop app you can close it with `command+Q`, you can start the app with Spotlight by typing `command+space` and then typing the name of your app.
 
 I've found that some of the best candidates for Fluid are web apps that provide their own set of keyboard shortcuts. This allows you to seamlessly `command+tab` to the dedicated Fluid app and just use your keyboard to navigate within the app itself. 
 
-![Task switcher](/assets/img/suugithub.jpg)
+![Task switcher](/img/suugithub.jpg)
 
 For example, I created an app for GitHub using Fluid. I like using my keyboard as much as possible and avoiding the mouse whenever I can. This allows me to `command+tab` to my GitHub app and then type `G C` to go to the code view in GitHub. I can then type `G P` to go to pull requests, use `J` and `K` to navigate between open pull request. To view a pull request, I simply hit `return` on the highlighted pull request. The dedicated GitHub app removes a little bit of friction vs going to my browser, finding which tab or tabs have GitHub open.
 
@@ -36,7 +36,7 @@ This is perfect for something you would want quick access to no matter what desk
 
 When you first launch Fluid, you will get a simple dialog box that allows you to enter the URL of the web page / web app, give it a name, and select an icon. By default it grabs the website's favicon, but you can use whatever you want.
 
-![Create an app](/assets/img/fluid_create_app.png)
+![Create an app](/img/fluid_create_app.png)
 
 ### Step 2: Launch your app and pin it to the status bar
 
@@ -46,11 +46,11 @@ When you first launch Fluid, you will get a simple dialog box that allows you to
 > **note:** you won't see this option unless you've paid $5 to unlock the extra features.
 * Confirm that you want it in the status bar.
 
-![Pin to status bar](/assets/img/fluid_pin_to_status_bar.png)
+![Pin to status bar](/img/fluid_pin_to_status_bar.png)
 
 It will end up looking like this, but with whatever icon you chose for your app.
 
-![App in status bar](/assets/img/fluid_pinned_app.png)
+![App in status bar](/img/fluid_pinned_app.png)
 
 Clicking on the icon will activate the app. You will see a window pop open with your website / webapp neatly displayed inside.
 
@@ -64,13 +64,13 @@ The final step is to make your app float and assign it a keyboard shortcut. Maki
 
 Without setting the window level to **Floating** when you activate your app, it will jump you to whatever desktop you happened to be on when you pinned the app to the status bar in the first place. We want to avoid that kind of jarring experience. We don't want to be ripped away from what were doing and then have to find our way back. What we are shooting for is a quick glance and then dismiss it with no disruption to the flow of whatever task you were doing.
 
-![Floating](/assets/img/fluid_floating.png)
+![Floating](/img/fluid_floating.png)
 
 Next, assign a keyboard shortcut to quickly activate your app. Assigning a keyboard shortcut gets us closer to the desired behavior of quickly activating and then dismissing the app.
 
 * In Preferences, go to `General Preferences` and set a `Global Shortcut`
 
-![Keyboard shortcut](/assets/img/fluid_keyboard_shortcut.png)
+![Keyboard shortcut](/img/fluid_keyboard_shortcut.png)
 
 ## Finished
 
@@ -80,7 +80,7 @@ I use this to activate my cheat sheets. It contains reference material for all k
 
 Below is a screenshot of my app activated. I could see this approach being useful for quickly accessing your email or calendar also.
 
-![Active app](/assets/img/fluid_pinned_app_active.jpg)
+![Active app](/img/fluid_pinned_app_active.jpg)
 
 [brettterpstra]: http://brettterpstra.com/
 [fluidapp]: http://fluidapp.com/

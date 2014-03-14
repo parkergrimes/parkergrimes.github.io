@@ -1,0 +1,20 @@
+{
+  "name": "grimes.co",
+  "version": "0.0.1",
+  "homepage": "https://github.com/parkergrimes/parkergrimes.github.io",
+  "description": "My website.",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation#~5.2.1"
+  }
+}
